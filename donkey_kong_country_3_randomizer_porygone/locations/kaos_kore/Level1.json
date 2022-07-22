@@ -1,0 +1,47 @@
+[
+	{
+		"name": "W7-1",
+		"access_rules": [],
+		"visibility_rules": [ "boat_upgrade_3" ],
+		"sections": [
+			{
+				"name": "Flag",
+				"chest_unopened_img": "images/checks/FlagNotDone.png",
+				"chest_opened_img": "images/checks/FlagDone.png",
+				"item_count": 1
+			},
+			{
+				"name": "Bonus 1",
+				"chest_unopened_img": "images/checks/BonusNotDone.png",
+				"chest_opened_img": "images/checks/BonusDone.png",
+				"item_count": 1
+			},
+			{
+				"name": "Bonus 2",
+				"chest_unopened_img": "images/checks/BonusNotDone.png",
+				"chest_opened_img": "images/checks/BonusDone.png",
+				"item_count": 1
+			},
+			{
+				"name": "Bonus 3",
+				"chest_unopened_img": "images/checks/BonusNotDone.png",
+				"chest_opened_img": "images/checks/BonusDone.png",
+				"visibility_rules": [ "$IsThreeBonusLevel|7|1" ],
+				"item_count": 1
+			},
+			{
+				"name": "DK Coin",
+				"chest_unopened_img": "images/checks/DKNotDone.png",
+				"chest_opened_img": "images/checks/DKDone.png",
+				"item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "KAOS Kore",
+				"x": 40,
+				"y": 160
+			}
+		]
+	}
+]

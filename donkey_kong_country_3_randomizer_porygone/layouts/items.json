@@ -1,0 +1,30 @@
+{
+    "tracker_items": {
+        "type": "array",
+        "orientation": "horizontal",
+        "content": [
+            {
+                "type": "itemgrid",
+                "h_alignment": "left",
+                "item_margin": "4,4",
+                "item_size": "4",
+                "rows": [
+                    [
+                        "bonus_coins",
+                        "krematoa_cogs",
+                        "banana_birds",
+                        "dk_coins",
+                        "boat_upgrade",
+                    ],
+                    [
+                        "goal",
+                        "boomer_costs",
+                        "banana_birds_required",
+                        "dk_coins_for_gyrocopter",
+                        "gyrocopter",
+                    ]
+                ]
+            }
+        ]
+    }
+}

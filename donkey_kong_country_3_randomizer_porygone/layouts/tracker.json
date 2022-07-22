@@ -1,0 +1,139 @@
+{
+    "tracker_default": {
+        "type": "container",
+        "background": "#877373",
+        "content": {
+            "type": "dock",
+            "dropshadow": true,
+            "content": [
+                {
+                    "type": "dock",
+                    "dock": "bottom",
+                    "v_alignment": "stretch",
+                    "content": [
+                        {
+                            "type": "group",
+                            "header": "Items",
+                            "dock": "left",
+                            "content": {
+                                "type": "layout",
+                                "key": "tracker_items"
+                            },
+                            "header_content": {
+                                "type": "button_popup",
+                                "style": "settings",
+                                "popup_background": "#55212121",
+                                "layout": "settings_popup"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Pinned Locations",
+                            "content": {
+                                "type": "recentpins",
+                                "style": "wrap",
+                                "h_alignment": "stretch",
+                                "v_alignment": "stretch",
+                                "orientation": "horizontal",
+                                "compact": true
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "World Map",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "World Map"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Lake Orangatanga",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Lake Orangatanga"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Kremwood Forest",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Kremwood Forest"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Cotton-Top Cove",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Cotton-Top Cove"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Mekanos",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Mekanos"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "K3",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "K3"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Razor Ridge",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Razor Ridge"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "KAOS Kore",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "KAOS Kore"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Krematoa",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Krematoa"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "tracker_broadcast": {
+        "type": "container",
+        "content": {
+            "type": "layout",
+            "key": "tracker_items"
+        }
+    }
+}

@@ -1,0 +1,27 @@
+[
+	{
+		"name": "W3-B",
+		"access_rules": [],
+		"visibility_rules": [ "boat_upgrade_1" ],
+		"sections": [
+			{
+				"name": "Boss",
+				"chest_unopened_img": "images/checks/BonusNotDone.png",
+				"chest_opened_img": "images/checks/BonusDone.png",
+				"item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "Cotton-Top Cove",
+				"x": 220,
+				"y": 105
+			},
+			{
+				"map": "World Map",
+				"x": 90,
+				"y": 120
+			}
+		]
+	}
+]

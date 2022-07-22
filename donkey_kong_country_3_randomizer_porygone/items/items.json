@@ -1,0 +1,63 @@
+[
+    {
+        "name": "Bonus Coins",
+        "type": "consumable",
+        "img": "images/items/bonus_coin.png",
+        "codes": "bonus_coins",
+        "max_quantity": 85,
+        "overlay_font_size": 14
+    },
+    {
+        "name": "Krematoa Cogs",
+        "type": "consumable",
+        "img": "images/items/krematoa_cog.png",
+        "codes": "krematoa_cogs",
+        "max_quantity": 5,
+        "overlay_font_size": 14
+    },
+    {
+        "name": "DK Coins",
+        "type": "consumable",
+        "img": "images/items/dk_coin.png",
+        "codes": "dk_coins",
+        "max_quantity": 41,
+        "overlay_font_size": 14
+    },
+    {
+        "name": "Banana Birds",
+        "type": "consumable",
+        "img": "images/items/banana_bird.png",
+        "codes": "banana_birds",
+        "max_quantity": 15,
+        "overlay_font_size": 14
+    },
+    {
+        "name": "Progressive Boat Upgrade",
+        "type": "progressive",
+        "img": "images/items/patch.png",
+        "codes": "boat_upgrade",
+        "stages": [
+            {
+                "img": "images/items/patch.png",
+                "codes": "boat_upgrade_1",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/one_ski.png",
+                "codes": "boat_upgrade_2",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/two_ski.png",
+                "codes": "boat_upgrade_3",
+                "inherit_codes": true
+            }
+        ]
+    },
+    {
+        "name": "Gyrocopter",
+        "type": "toggle",
+        "img": "images/items/gyrocopter.png",
+        "codes": "gyrocopter"
+    }
+]

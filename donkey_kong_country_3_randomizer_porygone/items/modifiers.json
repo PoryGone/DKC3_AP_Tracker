@@ -1,0 +1,82 @@
+[
+    {
+        "name": "Goal",
+        "type": "toggle",
+        "img": "images/items/krool_egg.png",
+        "disabled_img": "images/items/krool.png",
+        "disabled_img_mods": "none",
+        "codes": "goal"
+    },
+    {
+        "name": "Boomer Costs",
+        "type": "consumable",
+        "img": "images/items/boomer.png",
+        "initial_quantity": 10,
+        "min_quantity": 0,
+        "max_quantity": 17,
+        "increment": 1,
+        "overlay_font_size": 14,
+        "codes": "boomer_costs"
+    },
+    {
+        "name": "Banana Birds Required",
+        "type": "consumable",
+        "img": "images/items/banana_bird_mother.png",
+        "initial_quantity": 10,
+        "min_quantity": 0,
+        "max_quantity": 15,
+        "increment": 1,
+        "overlay_font_size": 14,
+        "codes": "banana_birds_required"
+    },
+    {
+        "name": "DK Coins for Gyrocopter",
+        "type": "consumable",
+        "img": "images/items/funky.png",
+        "initial_quantity": 30,
+        "min_quantity": 10,
+        "max_quantity": 41,
+        "increment": 1,
+        "overlay_font_size": 14,
+        "codes": "dk_coins_for_gyrocopter"
+    },
+    {
+        "name": "Triple Bonus Level 1",
+        "type": "consumable",
+        "img": "images/items/bonus_coin.png",
+        "initial_quantity": 0,
+        "min_quantity": 0,
+        "max_quantity": 39,
+        "increment": 1,
+        "overlay_font_size": 14,
+        "codes": "triple_bonus_1"
+    },
+    {
+        "name": "Triple Bonus Level 2",
+        "type": "consumable",
+        "img": "images/items/bonus_coin.png",
+        "initial_quantity": 0,
+        "min_quantity": 0,
+        "max_quantity": 39,
+        "increment": 1,
+        "overlay_font_size": 14,
+        "codes": "triple_bonus_2"
+    },
+    {
+        "name": "Triple Bonus Level 3",
+        "type": "consumable",
+        "img": "images/items/bonus_coin.png",
+        "initial_quantity": 0,
+        "min_quantity": 0,
+        "max_quantity": 39,
+        "increment": 1,
+        "overlay_font_size": 14,
+        "codes": "triple_bonus_3"
+    },
+    {
+        "name": "Final Chase",
+        "type": "toggle",
+        "img": "images/levels/final_chase_available.png",
+        "codes": "final_chase_available"
+    }
+]

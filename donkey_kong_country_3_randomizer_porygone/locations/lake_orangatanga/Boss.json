@@ -1,0 +1,27 @@
+[
+	{
+		"name": "W1-B",
+		"access_rules": [],
+		"visibility_rules": [],
+		"sections": [
+			{
+				"name": "Boss",
+				"chest_unopened_img": "images/checks/BonusNotDone.png",
+				"chest_opened_img": "images/checks/BonusDone.png",
+				"item_count": 1
+			},
+		],
+		"map_locations": [
+			{
+				"map": "Lake Orangatanga",
+				"x": 210,
+				"y": 160
+			},
+			{
+				"map": "World Map",
+				"x": 225,
+				"y": 240
+			}
+		]
+	}
+]

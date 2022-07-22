@@ -1,0 +1,22 @@
+[
+	{
+		"name": "W4-C",
+		"access_rules": [ "boat_upgrade_3" ],
+		"visibility_rules": [ "boat_upgrade_1" ],
+		"sections": [
+			{
+				"name": "Banana Bird",
+				"chest_unopened_img": "images/checks/BananaBirdNotDone.png",
+				"chest_opened_img": "images/checks/BananaBirdDone.png",
+				"item_count": 1
+			},
+		],
+		"map_locations": [
+			{
+				"map": "Mekanos",
+				"x": 210,
+				"y": 65
+			}
+		]
+	}
+]

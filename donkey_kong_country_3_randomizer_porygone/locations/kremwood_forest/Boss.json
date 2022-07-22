@@ -1,0 +1,27 @@
+[
+	{
+		"name": "W2-B",
+		"access_rules": [],
+		"visibility_rules": [],
+		"sections": [
+			{
+				"name": "Boss",
+				"chest_unopened_img": "images/checks/BonusNotDone.png",
+				"chest_opened_img": "images/checks/BonusDone.png",
+				"item_count": 1
+			},
+		],
+		"map_locations": [
+			{
+				"map": "Kremwood Forest",
+				"x": 175,
+				"y": 28
+			},
+			{
+				"map": "World Map",
+				"x": 240,
+				"y": 180
+			}
+		]
+	}
+]

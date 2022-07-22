@@ -1,0 +1,56 @@
+﻿[
+    {
+        "name": "World Map",
+        "location_size": 10,
+        "location_border_thickness": 2,
+        "img": "images/maps/world_map.png"
+    },
+    {
+        "name": "Lake Orangatanga",
+        "location_size": 10,
+        "location_border_thickness": 2,
+        "img": "images/maps/lake_orangatanga.png"
+    },
+    {
+        "name": "Kremwood Forest",
+        "location_size": 10,
+        "location_border_thickness": 2,
+        "img": "images/maps/kremwood_forest.png"
+    },
+    {
+        "name": "Cotton-Top Cove",
+        "location_size": 10,
+        "location_border_thickness": 2,
+        "img": "images/maps/cotton_top_cove.png"
+    },
+    {
+        "name": "Mekanos",
+        "location_size": 10,
+        "location_border_thickness": 2,
+        "img": "images/maps/mekanos.png"
+    },
+    {
+        "name": "K3",
+        "location_size": 10,
+        "location_border_thickness": 2,
+        "img": "images/maps/k3.png"
+    },
+    {
+        "name": "Razor Ridge",
+        "location_size": 10,
+        "location_border_thickness": 2,
+        "img": "images/maps/razor_ridge.png"
+    },
+    {
+        "name": "KAOS Kore",
+        "location_size": 10,
+        "location_border_thickness": 2,
+        "img": "images/maps/kaos_kore.png"
+    },
+    {
+        "name": "Krematoa",
+        "location_size": 10,
+        "location_border_thickness": 2,
+        "img": "images/maps/krematoa.png"
+    }
+]
