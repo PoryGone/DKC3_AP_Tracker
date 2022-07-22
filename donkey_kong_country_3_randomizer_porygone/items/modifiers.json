@@ -72,11 +72,5 @@
         "increment": 1,
         "overlay_font_size": 14,
         "codes": "triple_bonus_3"
-    },
-    {
-        "name": "Final Chase",
-        "type": "toggle",
-        "img": "images/levels/final_chase_available.png",
-        "codes": "final_chase_available"
     }
 ]

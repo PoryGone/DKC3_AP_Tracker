@@ -1,4 +1,4 @@
-# EmoTracker pack for Sonic Adventure 2: Battle Archipelago Randomizer
+# EmoTracker pack for Donkey Kong Country 3 Archipelago Randomizer
 
 An PopTracker/EmoTracker pack with map for\
 [the Donkey Kong Country 3 Archipelago Randomizer](https://github.com/PoryGone)

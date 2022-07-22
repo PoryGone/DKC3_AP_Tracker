@@ -226,39 +226,3 @@ LOCATION_MAPPING = {
     [0xDC30B4] = {"@W6-C/Banana Bird"},
     [0xDC30B5] = {"@W7-C/Banana Bird"},
 }
-
-
-
-LEVEL_MAPPING = {
-    [0x00] = {"city_escape_available"},
-    [0x01] = {"wild_canyon_available"},
-    [0x02] = {"prison_lane_available"},
-    [0x03] = {"metal_harbor_available"},
-    [0x04] = {"green_forest_available"},
-    [0x05] = {"pumpkin_hill_available"},
-    [0x06] = {"mission_street_available"},
-    [0x07] = {"aquatic_mine_available"},
-    [0x08] = {"route_101_available"},
-    [0x09] = {"hidden_base_available"},
-    [0x0A] = {"pyramid_cave_available"},
-    [0x0B] = {"death_chamber_available"},
-    [0x0C] = {"eternal_engine_available"},
-    [0x0D] = {"meteor_herd_available"},
-    [0x0E] = {"crazy_gadget_available"},
-    [0x0F] = {"final_rush_available"},
-
-    [0x10] = {"iron_gate_available"},
-    [0x11] = {"dry_lagoon_available"},
-    [0x12] = {"sand_ocean_available"},
-    [0x13] = {"radical_highway_available"},
-    [0x14] = {"egg_quarters_available"},
-    [0x15] = {"lost_colony_available"},
-    [0x16] = {"weapons_bed_available"},
-    [0x17] = {"security_hall_available"},
-    [0x18] = {"white_jungle_available"},
-    [0x19] = {"route_280_available"},
-    [0x1A] = {"sky_rail_available"},
-    [0x1B] = {"mad_space_available"},
-    [0x1C] = {"cosmic_wall_available"},
-    [0x1D] = {"final_chase_available"}
-}
