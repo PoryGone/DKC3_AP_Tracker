@@ -15,13 +15,14 @@
                         "banana_birds",
                         "dk_coins",
                         "boat_upgrade",
+                        "gyrocopter"
                     ],
                     [
                         "goal",
+                        "kongsanity",
                         "boomer_costs",
                         "banana_birds_required",
                         "dk_coins_for_gyrocopter",
-                        "gyrocopter",
                     ]
                 ]
             }

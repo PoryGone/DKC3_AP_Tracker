@@ -34,11 +34,11 @@
     {
         "name": "Progressive Boat Upgrade",
         "type": "progressive",
-        "img": "images/items/patch.png",
         "codes": "boat_upgrade",
         "stages": [
             {
                 "img": "images/items/patch.png",
+                "disabled_img": "images/items/motor_boat.png",
                 "codes": "boat_upgrade_1",
                 "inherit_codes": true
             },

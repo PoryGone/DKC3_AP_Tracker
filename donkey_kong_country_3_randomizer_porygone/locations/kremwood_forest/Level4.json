@@ -34,6 +34,13 @@
 				"chest_unopened_img": "images/checks/DKNotDone.png",
 				"chest_opened_img": "images/checks/DKDone.png",
 				"item_count": 1
+			},
+			{
+				"name": "KONG",
+				"chest_unopened_img": "images/checks/KONGNotDone.png",
+				"chest_opened_img": "images/checks/KONGDone.png",
+				"visibility_rules": [ "kongsanity" ],
+				"item_count": 1
 			}
 		],
 		"map_locations": [

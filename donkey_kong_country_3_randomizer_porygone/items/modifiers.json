@@ -8,6 +8,13 @@
         "codes": "goal"
     },
     {
+        "name": "KONGsanity",
+        "type": "toggle",
+        "img": "images/items/KONG.png",
+        "disabled_img": "images/items/KONG.png",
+        "codes": "kongsanity"
+    },
+    {
         "name": "Boomer Costs",
         "type": "consumable",
         "img": "images/items/boomer.png",

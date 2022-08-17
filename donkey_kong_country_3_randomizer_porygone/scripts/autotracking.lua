@@ -52,7 +52,7 @@ function onClear(slot_data)
         end
     end
 
-    local loc_type_list = {"Flag", "Bonus 1", "Bonus 2", "Bonus 3", "DK Coin"}
+    local loc_type_list = {"Flag", "Bonus 1", "Bonus 2", "Bonus 3", "DK Coin", "KONG"}
     for world_index=1,8 do
         for level_index=1,5 do
             for i, level_type in ipairs(loc_type_list) do
@@ -98,6 +98,11 @@ function onClear(slot_data)
     if slot_data['goal'] then
         local goal = Tracker:FindObjectForCode("goal")
         goal.Active = (slot_data['goal'] ~= 0)
+    end
+
+    if slot_data['kongsanity'] then
+        local kongsanity = Tracker:FindObjectForCode("kongsanity")
+        kongsanity.Active = (slot_data['kongsanity'] ~= 0)
     end
 
     if slot_data['active_levels'] then
@@ -153,7 +158,7 @@ function onLocation(location_id, location_name)
     end
 
     local loc_data = LOCATION_MAPPING[location_id]
-    if location_id > 0xDC309E then
+    if location_id > 0xDC309E and location_id < 0xDC3100 then
         for i, loc in ipairs(loc_data) do
             if not loc then
                 return
